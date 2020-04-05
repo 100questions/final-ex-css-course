@@ -1,0 +1,80 @@
+/*component events near by*/
+
+#container #list-meeting{
+	display: flex;
+	box-sizing: border-box;
+	justify-content: center;
+	align-items: center;
+}
+
+#container .meeting-nearby{
+	width: 350px;
+	height: 300px;
+	box-sizing: border-box;
+	border-radius: 10px;
+	border: 2px solid #EEE;
+	padding: 15px;
+	transform: scale(0.99) ;
+	transition-duration: 0.1s;
+	transition-delay: 0.1s;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+#container .meeting-nearby:hover{
+	transform: scale(1);
+	box-shadow: 5px 5px #EEE;
+}
+
+#container .meeting-nearby .time{
+	color: #0098ab;
+	margin: 5px;
+}
+
+#container .meeting-nearby .name{
+	font-weight: 600;
+	font-size: 20px;
+	margin: 5px;
+}
+
+#container .meeting-nearby .address{
+	font-size: 15px;
+	margin: 5px;
+}
+
+#container .meeting-nearby .location{
+	display: flex;
+	align-items: center;
+}
+
+#container .meeting-nearby .location #icon{
+	width: 15px;
+	height: auto;
+	margin: 10px;
+}
+
+#container .meeting-nearby .location p{
+	color: #AAA;
+}
+
+#container .meeting-nearby .participants{
+	display: flex;
+	justify-content: space-between;
+	padding: 5px;
+}
+
+#container .meeting-nearby .participants .btn-prt{
+	width: 80px;
+	height: auto;
+	padding: 10px;
+	border-radius: 5px;
+	color:  #0098ab;
+	border: 1px solid #0098ab;
+	text-align: center;
+}
+
+
+#container .meeting-nearby .participants .btn-prt:hover{
+	background-color: #0098ab;	
+	color: #FFF;
+}

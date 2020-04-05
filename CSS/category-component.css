@@ -1,0 +1,25 @@
+
+/*categories css*/
+#category{
+	width: 100%;
+	vertical-align: center;
+	margin-top: 20px;
+}
+
+#category #list-themes{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#category #list-themes .img{
+	width: 230px;
+	height: 200px;
+	border-radius: 5px;
+	background-image: url("https://secure.meetupstatic.com/photos/event/2/e/a/7/600_450131943.jpeg");
+	background-position: center;
+}
+
+#category #list-themes .ctg{
+	margin: 10px 0px 10px 0px;
+}

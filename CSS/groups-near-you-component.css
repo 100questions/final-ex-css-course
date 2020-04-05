@@ -1,0 +1,54 @@
+/*component groups near by*/
+
+#list-groups{
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+}
+
+#list-groups .group{
+	border-radius: 10px;
+	border: 2px solid #EEE;
+	transform: scale(0.99);
+	transition-duration: 0.3s;
+}
+
+#list-groups .group:hover{
+	box-shadow: 5px 5px #EEE;
+	transform: scale(1);
+}
+
+#list-groups .group .img-banner{
+	width: 250px;
+	height: 200px;
+	background-image: url(https://loremflickr.com/320/240/dog);
+	border-radius: 10px;
+	background-position: cover;
+}
+
+#list-groups .group .category{
+	font-size: 15px;
+	color: gray;
+	text-transform: uppercase;
+	margin: 10px;
+}
+
+#list-groups .group .title{
+	font-weight: bold;
+	font-size: 20px;
+	margin: 10px;
+}
+
+#list-groups .group .coming-events{
+	font-size: 15px;
+	margin: 10px;
+}
+
+#list-groups .group .member-number{
+	margin: 30px 10px 10px 10px;
+}
+
+#list-group .content{
+	padding: 10px;
+
+}
