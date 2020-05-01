@@ -12,13 +12,8 @@
  ```bash
 git clone https://github.com/100questions/final-ex-css-course
 ```
- * rồi bạn dùng lệnh
-  ```bash
-node index.html
-```
-lệnh này để chạy file index lên và xem trang web trên trình duyệt
- 
- 
+ * sau khi clone bạn chạy file index trong thư mục để xem. Và mở code lên để tham khảo nhé
+
  ### còn đây là trang mình đã đã deploy sẵn trên firebase bạn có thể vào xem
  
  https://x-demofinal-test.web.app/ - automatic!
